@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#00ffcd"
+        android:gravity="center_vertical"
+        android:padding="5dp"
+        android:text="检查项："
+        android:textColor="#ff0000" />
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="25dp"
+        android:gravity="center_vertical"
+        android:padding="5dp"
+        android:text="检查项："
+        android:textColor="#000000"
+        android:textSize="15sp" />
+
+    <RadioButton
+        android:id="@+id/radioButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tv_name"
+        android:layout_alignBottom="@+id/tv_name"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="10dp" />
+
+</RelativeLayout>

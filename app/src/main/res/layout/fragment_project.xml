@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+  >
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:textSize="24dp"
+        android:background="#cdcdcd"
+        android:text="添加巡检纪录" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/textView">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ListView
+                android:id="@+id/lv_item"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/tv_back"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="提交"
+                android:gravity="center"
+                android:textSize="25dp"
+                android:background="#cdcdcd"
+                android:layout_alignParentBottom="true"
+                android:textColor="#000000"/>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
