@@ -31,7 +31,7 @@ public class MainActivity extends FragmentActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         initView();
-
+        Toast.makeText(this,"ss",Toast.LENGTH_SHORT).show();
     }
     private void initView() {
         //实例化布局对象
