@@ -9,6 +9,7 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.TabHost;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.example.yuzelli.enterprise.R;
 import com.example.yuzelli.enterprise.View.fragment.DateFragment;
@@ -30,6 +31,7 @@ public class MainActivity extends FragmentActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         initView();
+        Toast.makeText(this,"ss",Toast.LENGTH_SHORT).show();
     }
     private void initView() {
         //实例化布局对象
